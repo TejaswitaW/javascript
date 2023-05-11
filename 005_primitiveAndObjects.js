@@ -28,6 +28,7 @@ console.log(e,typeof e)
 let f = undefined;
 console.log(f,typeof f)
 // object
+// objects are key ,value pairs
 let person = {
     name:"Ram",
     age:22,
@@ -35,3 +36,4 @@ let person = {
 }
 console.log(person)
 console.log(typeof person)
+console.log(person["name"])
